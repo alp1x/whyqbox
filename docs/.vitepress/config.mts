@@ -1,6 +1,15 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  head: [
+    ['meta', { name: 'theme-color', content: '#e1b53e' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: 'en' }],
+    ['meta', { property: 'og:title', content: 'While originally forked from QBCore, many Qbox resources have been refactored to improve code quality, enhance security, lower performance overhead, and integrate with overextended resources.' }],
+    ['meta', { property: 'og:site_name', content: 'why.qbox' }],
+    ['meta', { property: 'og:image', content: 'https://i.pinimg.com/564x/b0/69/d3/b069d3bd78a81e7bd800897e75af6f17.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://whyqbox.wtf/' }],
+  ],
   title: "🐥why.qbox",
   description: "While originally forked from QBCore, many Qbox resources have been refactored to improve code quality, enhance security, lower performance overhead, and integrate with overextended resources. ",
   markdown: {
