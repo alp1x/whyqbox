@@ -1,17 +1,17 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "🐥why.qbox",
   description: "While originally forked from QBCore, many Qbox resources have been refactored to improve code quality, enhance security, lower performance overhead, and integrate with overextended resources. ",
   markdown: {
     theme: {
       light: 'github-light',
-      dark: 'ayu-dark'
+      dark: 'ayu-dark',
     },
     image: {
       lazyLoading: true
-    }
+    },
+    lineNumbers: true
   },
   themeConfig: {
     socialLinks: [
@@ -19,7 +19,7 @@ export default defineConfig({
       { icon: 'discord', link: 'https://discord.gg/qbox' },
     ],
     footer: {
-      message: 'summarized by uyuyorum for qbox-project',
+      message: 'why.qbox',
       copyright: 'copyright © 2024'
     }
   },
@@ -30,11 +30,13 @@ export default defineConfig({
     },
     tr: {
       label: 'Turkish',
-      lang: 'tr'
+      lang: 'tr',
+      link: '/lang/tr'
     },
     fr: {
       label: 'French',
       lang: 'fr',
+      link: '/lang/fr'
     }
   }
 })
