@@ -37,6 +37,11 @@ export default defineConfig({
       label: 'French',
       lang: 'fr',
       link: '/lang/fr'
+    },
+    ko: {
+      label: 'Korean',
+      lang: 'ko',
+      link: '/lang/ko'
     }
   }
 })
