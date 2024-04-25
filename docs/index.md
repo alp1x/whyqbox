@@ -15,7 +15,7 @@ hero:
       link: https://docs.qbox.re/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/alp1x/whyqbox
 ---
 
 ### 👋 can you briefly explain what this qbox?
