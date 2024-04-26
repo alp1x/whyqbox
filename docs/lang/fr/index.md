@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "🦲 Pourquoi.qbox?"
-  text: "- 🧔Pourquoi.not?"
+  text: "- 🧔Pourquoi.pas?"
   tagline: Ce site explique brievement l'utilité de Qbox, ceci n'est pas une page officielle
   image:
     src: https://i.pinimg.com/564x/b0/69/d3/b069d3bd78a81e7bd800897e75af6f17.jpg
