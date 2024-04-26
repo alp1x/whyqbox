@@ -2,49 +2,49 @@
 layout: home
 
 hero:
-  name: "🦲 why.qbox?"
-  text: "- 🧔why.not?"
-  tagline: this site only briefly summarizes the purpose of qbox, it is not the official page
+  name: "🦲 Pourquoi.qbox?"
+  text: "- 🧔Pourquoi.not?"
+  tagline: Ce site explique brievement l'utilité de Qbox, ceci n'est pas une page officielle
   image:
     src: https://i.pinimg.com/564x/b0/69/d3/b069d3bd78a81e7bd800897e75af6f17.jpg
     alt: Qbox Duck
   actions:
     - theme: brand
-      text: Get Started
+      text: Commencer
       link: https://docs.qbox.re/
     - theme: alt
-      text: View on GitHub
+      text: Regarder sur Github
       link: https://github.com/alp1x/whyqbox
 ---
 
-### 👋 can you briefly explain what this qbox?
-::: info + yes, of course.
- While originally forked from <Badge type="danger" text="QBCore" />, many <Badge type="warning" text="Qbox" /> resources have been refactored to improve code quality, enhance security, lower performance overhead, and integrate with <Badge type="tip" text="overextended" /> resources.
+### 👋 peux-tu expliquer brièvement ce qu'est cette qbox ?
+::: info + oui, avec plaisir.
+ initialement dérivé de <Badge type="danger" text="QBCore" />, plusieurs <Badge type="warning" text="Qbox" /> resources ont été refactorisés pour améliorer la qualité du code, améliorer la sécurité , réduction des performances, et intégrer <Badge type="tip" text="overextended" /> resources.
 :::
 
-### 👷 do qbcore scripts work in qbox?
-::: info + yes, they do.
- We have created a bridge layer for backward compatibility with documented and correct qb-core usage paths, and you can continue to use most QBCore scripts without any changes.
+### 👷 Est-ce que les scripts Qbcore fonctionnent sur Qbox ?
+::: info + oui, ils fonctionnent
+ Nous avons créé un bridge (pont ou conversion) pour que sa sois compatible, avec des chemins d'utilisation qb-core documentés et corrects, et vous pouvez continuer à utiliser la plupart des scripts QBCore sans aucune modification.
 :::
 
-### 📦 is the qbox ready to use?
-::: info + yes, it is.
- Since qbx_core has backward compatibility with qb-core sources, we recommend using only published Qbox sources for a stable experience.
+### 📦 Est-ce que Qbox est pret a être utilisé?
+::: info + Oui, c'est prêt.
+ Étant donné que qbx_core est rétrocompatible avec les resources qb-core, nous vous recommandons d'utiliser uniquement les resources Qbox publiées pour une expérience stable.
 :::
 
-### ⚡ let's make a brief comparison
-| A short overview |QBCore|Qbox|
+### ⚡ Faisons une brève comparaison
+| Un bref aperçu |QBCore|Qbox|
 | ------------- | :-----------: | -----------: |
-| lightweight     | 🔧 |  ✅ |
-| no lint errors are present      | ⭕ |  ✅ |
-| readable and well organized     | 🔧 |  ✅ |
-| modular structure     | ⭕ |  ✅ |
-| no deprecated functions are being invoked     | ⭕ | ✅ |
+| léger     | 🔧 |  ✅ |
+| Aucune erreur de lint n'est présente | ⭕ | ✅ |
+| Lisible et bien organisé | 🔧 | ✅ |
+| Structure modulaire | ⭕ | ✅ |
+| Aucune fonction obsolète n'est invoquée | ⭕ | ✅ |
 
-[📚 Read more](https://docs.qbox.re/)
+[📚 lisez encore](https://docs.qbox.re/)
 
 
-## 📦 what's next?
+## 📦 que vient ensuite ?
 
 ```lua
 -- qbx_core/server/storage/main.lua
