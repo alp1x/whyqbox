@@ -13,23 +13,23 @@ hero:
       text: Commencer
       link: https://docs.qbox.re/
     - theme: alt
-      text: Regarder sur Github
+      text: Voir sur Github
       link: https://github.com/alp1x/whyqbox
 ---
 
-### 👋 peux-tu expliquer brièvement ce qu'est cette qbox ?
+### 👋 peux-tu expliquer brièvement ce qu'est qbox ?
 ::: info + oui, avec plaisir.
- initialement dérivé de <Badge type="danger" text="QBCore" />, plusieurs <Badge type="warning" text="Qbox" /> resources ont été refactorisés pour améliorer la qualité du code, améliorer la sécurité , réduction des performances, et intégrer <Badge type="tip" text="overextended" /> resources.
+ initialement dérivé de <Badge type="danger" text="QBCore" />, plusieurs resources <Badge type="warning" text="Qbox" /> ont été refactorisés pour améliorer la qualité du code, améliorer la sécurité , améliorer les performances, et intégrer les resources <Badge type="tip" text="overextended" />.
 :::
 
 ### 👷 Est-ce que les scripts Qbcore fonctionnent sur Qbox ?
 ::: info + oui, ils fonctionnent
- Nous avons créé un bridge (pont ou conversion) pour que sa sois compatible, avec des chemins d'utilisation qb-core documentés et corrects, et vous pouvez continuer à utiliser la plupart des scripts QBCore sans aucune modification.
+ Nous avons créé une couche de compatibilité, avec une utilisation de qb-core documentés et corrects, et vous pouvez continuer à utiliser la plupart des scripts QBCore sans aucune modification.
 :::
 
 ### 📦 Est-ce que Qbox est pret a être utilisé?
 ::: info + Oui, c'est prêt.
- Étant donné que qbx_core est rétrocompatible avec les resources qb-core, nous vous recommandons d'utiliser uniquement les resources Qbox publiées pour une expérience stable.
+ Malgré que qbx_core est rétrocompatible avec les resources qb-core, nous vous recommandons d'utiliser uniquement les resources Qbox publiées pour une expérience stable.
 :::
 
 ### ⚡ Faisons une brève comparaison
@@ -41,10 +41,10 @@ hero:
 | Structure modulaire | ⭕ | ✅ |
 | Aucune fonction obsolète n'est invoquée | ⭕ | ✅ |
 
-[📚 lisez encore](https://docs.qbox.re/)
+[📚 En savoir plus](https://docs.qbox.re/)
 
 
-## 📦 que vient ensuite ?
+## 📦 Et après ?
 
 ```lua
 -- qbx_core/server/storage/main.lua
