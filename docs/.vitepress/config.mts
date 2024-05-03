@@ -42,6 +42,11 @@ export default defineConfig({
       lang: 'tr',
       link: '/lang/tr'
     },
+    nl: {
+      label: 'Dutch',
+      lang: 'nl',
+      link: '/lang/nl'
+    },
     fr: {
       label: 'French',
       lang: 'fr',
