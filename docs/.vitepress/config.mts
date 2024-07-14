@@ -57,7 +57,7 @@ export default defineConfig({
       lang: 'ko',
       link: '/lang/ko'
     },
-    ko: {
+    sv: {
       label: 'Swedish',
       lang: 'sv',
       link: '/lang/sv'
